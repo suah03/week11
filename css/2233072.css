@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(248, 188, 172, 0.973)
+}
+/*제목*/
+.top {
+    background-color: rgb(97, 172, 135);
+    color: rgb(250, 226, 220);
+    text-align: center;
+}
+/*소개 글*/
+.introduction {
+    height: 460px;
+}
+    
+mark {
+    background-color: rgba(95, 51, 58, 0.445);
+}
+/*목차*/
+.index mark {
+    background-color: rgb(95, 165, 124);
+    color: rgb(252, 237, 236);
+}
+.index ol {
+    background-color: rgba(226, 128, 124, 0.63);
+    width: 300px;
+}
+
+.index li {
+    background-color: rgba(255, 255, 255, 0.555);
+    margin-bottom: 10px;
+}
+.index li:hover {
+    background-color: rgba(171, 218, 200, 0);
+    color: rgba(255, 250, 250, 0.664);
+}
+.index li a:hover {
+    color: rgb(97, 53, 53);
+}
+/*동아리 운영진*/
+.mentor table {
+    border: 3px solid rgb(165, 113, 152); /*굵기 선종류 색상*/
+}
+.mentor table td {
+    height: 50px;
+    width: 100px;
+    border: 3px dotted rgb(219, 179, 209);
+    background-color: rgba(231, 148, 159, 0.582);
+    text-align: center;
+}
+/*동아리 팀원*/
+.group table {
+    border: 3px solid rgb(236, 202, 229);
+    border-collapse: collapse;
+}
+
+.group table td{
+    height: 50px;
+    width: 100px;
+    border: 3px dotted rgb(129, 173, 156);
+    
+    text-align: center;
+}
+.group table tr:nth-child(n-1) {
+    background-color: rgba(95, 173, 130, 0.425);
+}
+.group table tr:nth-child(2n-1) {
+    background-color: rgba(241, 197, 200, 0.925);
+}
+/*링크 이동*/
+.hyperlink li a:hover {
+    background-color: rgb(124, 190, 149);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.hyperlink li a {
+    text-decoration: none;
+}
+/*소사캠퍼스*/
+.school img{
+    width: auto;
+    height: 250px;
+}
